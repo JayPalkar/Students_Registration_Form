@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(180, 112, 243);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Dela Gothic One';
+}
+#container{
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 25em;
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 0.8em;
+}
+
+.wrapper h1 {
+    font-family: "Poppins";
+    color: #000000;
+    margin-bottom: 1em;
+    font-weight: 1000;
+}
+
+#registrationForm input{
+    margin-left: 20px;
+    border: 0px;
+    width: 50%;
+    background: transparent;
+    border-bottom: 2px solid;
+    padding: 5px 0px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    
+}
+
+#registrationForm label{
+    font-family: 'Poppins';
+}
+
+button {
+    background-color: rgb(180, 112, 243);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+#jsonData {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
